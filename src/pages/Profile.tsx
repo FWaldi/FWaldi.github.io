@@ -178,9 +178,8 @@ function CollapsedContent({
 				</div>
 				<ChevronDown
 					size={20}
-					className={`${
-						isOpen ? "rotate-180" : ""
-					} transition-transform duration-300 ease-in-out`}
+					className={`${isOpen ? "rotate-180" : ""
+						} transition-transform duration-300 ease-in-out`}
 				/>
 			</button>
 			<AnimatePresence>
@@ -206,7 +205,7 @@ function DetailsCard() {
 	} = useData();
 	const educationLength =
 		translations?.["education-length"] &&
-		!isNaN(Number(translations["education-length"]))
+			!isNaN(Number(translations["education-length"]))
 			? Number(translations["education-length"])
 			: null;
 
@@ -251,7 +250,7 @@ function DetailsCard() {
 							{translations?.["personal-info-email"] || "Email:"}
 						</strong>
 						{translations?.["personal-info-email-value"] ||
-							"ketutshridhara@gmail.com"}
+							"fitriwaldi777@gmail.com"}
 					</p>
 					<p className="semibold text-justify">
 						<strong>

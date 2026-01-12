@@ -12,7 +12,7 @@ export default function Footer() {
 			<div className="flex items-center gap-2">
 				<Button
 					href={
-						import.meta.env.VITE_GITHUB_LINK || "https://github.com/kiuyha"
+						import.meta.env.VITE_GITHUB_LINK || "https://github.com/FWaldi"
 					}
 					aria-label="see my github profile"
 				>
@@ -28,7 +28,7 @@ export default function Footer() {
 				<Button
 					href={
 						import.meta.env.VITE_LINKEDIN_LINK ||
-						"https://www.linkedin.com/in/ketut-shridhara-46bb792a5"
+						"https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
 					}
 					aria-label="see my linkedin profile"
 				>
@@ -42,7 +42,7 @@ export default function Footer() {
 				</Button>
 
 				<Button
-					href={`mailto:${details?.["personal-info-email-value"] || "ketutshridhara@gmail.com"}`}
+					href={`mailto:${details?.["personal-info-email-value"] || "fitriwaldi777@gmail.com"}`}
 					aria-label="send me an email"
 				>
 					<Mail size={25} />
@@ -51,7 +51,7 @@ export default function Footer() {
 
 			<div className="flex flex-col items-center">
 				<span className="font-semibold">
-					&copy; {new Date().getFullYear()} { import.meta.env.VITE_FULL_NAME || 'Ketut Shridhara'}
+					&copy; {new Date().getFullYear()} {import.meta.env.VITE_FULL_NAME || 'Ketut Shridhara'}
 				</span>
 				<span className="text-sm">
 					All rights reserved
